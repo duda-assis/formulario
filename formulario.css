@@ -5,6 +5,10 @@ body {
 fieldset {
   background-color: #eeeeee;
   width: 600px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 legend {
@@ -15,4 +19,22 @@ legend {
 
 input {
   margin: 5px;
+}
+
+.titulos{
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  padding: 20px;
+}
+
+.opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 20px;
+}
+
+label {
+  min-width: 180px;
 }
